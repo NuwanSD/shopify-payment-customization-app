@@ -1,0 +1,28 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "payment-customization-app"
+client_id = "1ff37070f0254c36ffdb5613230d1d71"
+application_url = "https://manufacturing-quad-slip-flat.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products,write_payment_customizations"
+
+[auth]
+redirect_urls = [
+  "https://manufacturing-quad-slip-flat.trycloudflare.com/auth/callback",
+  "https://manufacturing-quad-slip-flat.trycloudflare.com/auth/shopify/callback",
+  "https://manufacturing-quad-slip-flat.trycloudflare.com/api/auth/callback",
+  "https://manufacturing-quad-slip-flat.trycloudflare.com/.shopify/graphiql/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-10"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "skylaketeststore.myshopify.com"

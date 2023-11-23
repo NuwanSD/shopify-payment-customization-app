@@ -1,0 +1,31 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+application_url = "https://fence-spread-anger-profit.trycloudflare.com"
+client_id = "6b3fc7a50599d9149e5134f65cba3b15"
+embedded = true
+name = "payment-customization-app"
+
+[access_scopes]
+
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+# This file stores configuration for your Shopify app.
+
+scopes = "write_products, write_payment_customizations"
+
+[auth]
+redirect_urls = [
+  "https://fence-spread-anger-profit.trycloudflare.com/auth/callback",
+  "https://fence-spread-anger-profit.trycloudflare.com/auth/shopify/callback",
+  "https://fence-spread-anger-profit.trycloudflare.com/api/auth/callback",
+  "https://fence-spread-anger-profit.trycloudflare.com/.shopify/graphiql/auth/callback",
+]
+
+[webhooks]
+api_version = "2023-10"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "skylaketeststore.myshopify.com"
