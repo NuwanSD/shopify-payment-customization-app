@@ -154,6 +154,7 @@ export default function Index() {
                     </Button>
                   )}
                 </InlineStack>
+
                 {actionData?.product && (
                   <Box
                     padding="400"

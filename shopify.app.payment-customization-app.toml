@@ -2,7 +2,7 @@
 
 name = "payment-customization-app"
 client_id = "1ff37070f0254c36ffdb5613230d1d71"
-application_url = "https://manufacturing-quad-slip-flat.trycloudflare.com"
+application_url = "https://blank-sleeping-developmental-contain.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,10 +11,10 @@ scopes = "write_products,write_payment_customizations"
 
 [auth]
 redirect_urls = [
-  "https://manufacturing-quad-slip-flat.trycloudflare.com/auth/callback",
-  "https://manufacturing-quad-slip-flat.trycloudflare.com/auth/shopify/callback",
-  "https://manufacturing-quad-slip-flat.trycloudflare.com/api/auth/callback",
-  "https://manufacturing-quad-slip-flat.trycloudflare.com/.shopify/graphiql/auth/callback"
+  "https://blank-sleeping-developmental-contain.trycloudflare.com/auth/callback",
+  "https://blank-sleeping-developmental-contain.trycloudflare.com/auth/shopify/callback",
+  "https://blank-sleeping-developmental-contain.trycloudflare.com/api/auth/callback",
+  "https://blank-sleeping-developmental-contain.trycloudflare.com/.shopify/graphiql/auth/callback"
 ]
 
 [webhooks]
